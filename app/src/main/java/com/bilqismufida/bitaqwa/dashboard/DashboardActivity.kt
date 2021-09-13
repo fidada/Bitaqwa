@@ -28,14 +28,26 @@ class DashboardActivity : AppCompatActivity() {
         initRecycleViewInspiration()
     }
 
+    /*
+    STEP FOR USE THE RECYCLER VIEW
+    1. Membuat Recycler view di XML utama (Dasboard Activity)
+    2. Membuat tampilan item pada Layout yg berbeda
+    3. Membuat model
+    4. Membuat data
+    5. Membuat adapter
+    6. Inisialisasi pada 'Activity Recycler View'(Dashboard Activity)
+     */
     private fun initRecycleViewInspiration() {
         val list : ArrayList<InspirationModel> = arrayListOf()
+        //setHasFixedSize = utk mengatur ukuran recyclerview
         rv_inspiration.setHasFixedSize(true)
+        //knp pake addAll? karena datanya lebih dari 1, nge add semua data
         list.addAll(InspirationData.listData)
 
+        //utk membuat tampilan recycler view menjadi linear (ke atas dan ke bawah)
         rv_inspiration.layoutManager = LinearLayoutManager(this)
-        val listInspirationAdapter = InspirationListAdapter(list)
-        rv_inspiration.adapter = listInspirationAdapter
+        //buat manggil adapter nya
+        rv_inspiration.adapter = InspirationListAdapter(list)
     }
 
     private fun initHeader() {

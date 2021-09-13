@@ -11,4 +11,12 @@
     <color name="colorPrimaryDark">#C75D3C</color>
     <color name="colorAccent">#EAF9FF</color>
     <color name="colorText">#474747</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="green_normal">#8BC34A</color>
+    <color name="dark_green">#00A800</color>
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#2196F3</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="ungu_janda">#BB2FD3</color>
 </resources>

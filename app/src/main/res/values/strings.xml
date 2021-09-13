@@ -19,6 +19,25 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <!-- String for activity_task2 -->
+    <string name="button1">BUTTON 1</string>
+    <string name="button2">BUTTON 2</string>
+    <string name="button3">BUTTON 3</string>
+    <string name="button4">BUTTON 4</string>
+
+    <!--  String for activity_task3  -->
+    <string name="txt_scroll">Scroll View</string>
+    <string name="txt_linear">Linear Layout</string>
+    <string name="txt_relative">Relative Layout</string>
+    <string name="txt_frame">Frame Layout</string>
+    <string name="txt_constraint">Constraint</string>
+
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text_pagi_malam"><![CDATA[Pagi\n& Malam]]></string>
+    <string name="text_doa_rumah">Rumah</string>
+    <string name="text_doa_makanan_minuman"><![CDATA[Makanan & Minuman]]></string>
+    <string name="text_doa_perjalanan">Perjalanan</string>
+    <string name="text_doa_sholat">Sholat</string>
+    <string name="text_doa_etika_baik">Etika Baik</string>
 </resources>

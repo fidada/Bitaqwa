@@ -5,10 +5,16 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_rounded_menu.xml" value="0.27395833333333336" />
         <entry key="app/src/main/res/drawable/bg_rounded_text_view.xml" value="0.27395833333333336" />
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.26974358974358975" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.32465419039869814" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_menu_doa.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_menu_dzikir.xml" value="0.1328125" />
         <entry key="app/src/main/res/layout/activity_menu_video_kajian.xml" value="0.1328125" />
+        <entry key="app/src/main/res/layout/activity_menu_zakat.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_task1.xml" value="0.20199275362318841" />
+        <entry key="app/src/main/res/layout/activity_task2.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_task3.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/item_row_inspiration.xml" value="0.2578125" />
       </map>
     </option>
